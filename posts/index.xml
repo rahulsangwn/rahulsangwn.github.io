@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts on Rahul Sangwan Blog</title>
+    <link>https://rahulsangwn.github.io/posts/</link>
+    <description>Recent content in Posts on Rahul Sangwan Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 21 Jun 2021 23:15:53 +0530</lastBuildDate><atom:link href="https://rahulsangwn.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Shortest Program for the CPU</title>
+      <link>https://rahulsangwn.github.io/posts/shortestprogram/</link>
+      <pubDate>Mon, 21 Jun 2021 23:15:53 +0530</pubDate>
+      
+      <guid>https://rahulsangwn.github.io/posts/shortestprogram/</guid>
+      <description>Here we discuss about the shortest program for the computer
+#include &amp;lt;stdio.h&amp;gt;int main() { printf(&amp;#34;Google\n&amp;#34;); return 0; } Here is assembly code
+loop: jmp loop times 510-($-$$) db 0 dw 0xaa55 </description>
+    </item>
+    
+  </channel>
+</rss>
