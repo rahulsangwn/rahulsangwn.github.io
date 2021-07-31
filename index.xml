@@ -6,16 +6,15 @@
     <description>Recent content on Rahul Sangwan Directory</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 21 Jun 2021 23:15:53 +0530</lastBuildDate><atom:link href="https://rsdir.com/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 21 Jun 2020 23:15:53 +0530</lastBuildDate><atom:link href="https://rsdir.com/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Shortest Program for the CPU</title>
       <link>https://rsdir.com/posts/shortestprogram/</link>
-      <pubDate>Mon, 21 Jun 2021 23:15:53 +0530</pubDate>
+      <pubDate>Sun, 21 Jun 2020 23:15:53 +0530</pubDate>
       
       <guid>https://rsdir.com/posts/shortestprogram/</guid>
-      <description>Here we discuss about the shortest program for the computer
-#include &amp;lt;stdio.h&amp;gt;int main() { printf(&amp;#34;Google\n&amp;#34;); return 0; } Here is assembly code
-loop: jmp loop times 510-($-$$) db 0 dw 0xaa55 </description>
+      <description>In this post we are going to write a simple bootloader program that can be loaded by the x86 based computers.
+When computer starts, BIOS will always start our CPU in 16-bit mode (also known as Real mode). Then it will search for boot sector on the attached storage devices like hard disks. Boot sector is 512 bytes of storage with its last 2 btyes as &amp;lsquo;0xaa&amp;rsquo; and &amp;lsquo;0x55&amp;rsquo; (last two bytes act as signature for the boot sector).</description>
     </item>
     
   </channel>
